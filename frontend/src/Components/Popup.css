@@ -1,0 +1,48 @@
+.popup-animation {
+    background-color: white;
+    color: aquamarine;
+    /* width: auto; */
+    padding: 3em;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: popUpMove 3s infinite;
+    z-index: 10;
+}
+
+@keyframes popUpMove {
+    0% {
+        /* .popup-animation {
+                display: block;
+                width: 50%;
+            } */
+    }
+
+    50% {
+        .popup-animation {
+            width: 30%;
+            display: block;
+        }
+
+    }
+
+    75% {
+        /* .popup-animation {
+            display: block;
+        } */
+
+        /* width: 10%; */
+    }
+
+    100% {
+        .popup-animation {
+            display: none;
+        }
+
+        /* width: 0%; */
+    }
+}

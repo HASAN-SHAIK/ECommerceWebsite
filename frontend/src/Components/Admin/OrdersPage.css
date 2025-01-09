@@ -1,0 +1,27 @@
+.update-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .update-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .card {
+    position: relative;
+    padding-bottom: 50px; /* To make room for the Update button */
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .card .dropdown-toggle {
+    color: #ddd;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }

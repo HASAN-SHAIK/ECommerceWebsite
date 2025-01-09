@@ -1,0 +1,160 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+  width: 12vw;
+  position: fixed;
+  /* z-index: 1; */
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .navbar-icon {
+  background-color: #232323;
+  border-radius: .3em;
+  /* border: 1px #818181 solid; */
+  width: 1em;
+  height: 1em;
+  padding: 0.4em;
+  transition: all .3s;
+}
+
+.sidenav .navbar-icon:hover {
+  background-color: #00c1b5;
+  color: white;
+  height: 1.3em;
+  width: 1.3em;
+  transition: all .3s;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.2s;
+}
+
+.sidenav a:hover {
+  color: #00c1b5;
+  transition: all .2s;
+}
+
+.icon-text {
+  font-size: .7em;
+}
+
+.navbar-icon {
+  color: #00c1b5;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 12vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #111;
+  transition: 0.5s;
+  padding-top: 1em;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.topnav a:hover {
+  color: #f1f1f1;
+}
+
+.left-topnav {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding-left: 2em;
+}
+
+.right-topnav {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  font-size: .7em;
+  padding: .5em;
+}
+
+.admin-search-input {
+  /* border-radius: 2em; */
+  width: 25em;
+  margin-left: 3em;
+}
+
+.profile-name {
+  font-size: 0.7em;
+  min-width: 5em;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.profile-designation {
+  font-size: 0.4em;
+}
+
+.profile-image {
+  font-size: .5em;
+  border: #111;
+  border-radius: 1em;
+}
+
+.rightnav-profile {
+  margin-left: 1em;
+}
+
+.rightnav-elements {
+  padding: 1em;
+}
+
+.search-text {
+  background-color: #00c1b5;
+  height: 2.8em;
+  /* border-radius: 1em; */
+}
+
+/* .mynavbar{
+    z-index: 1000;
+  } */
+
+
+
+.content {
+  color: white;
+  background-color: #111;
+  position: relative;
+  top: 15vh;
+  left: 12vw;
+  width: 85%;
+}

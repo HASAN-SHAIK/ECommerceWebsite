@@ -1,0 +1,67 @@
+.settings-container {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(168, 252, 247);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .input-group label {
+    width: 150px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .input-group svg {
+    color: #3498db;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #2980b9;
+  }
+
+  .settings-heading{
+    color: #2980b9;
+    font-weight: bolder;
+    /* font-size: larger; */
+  }

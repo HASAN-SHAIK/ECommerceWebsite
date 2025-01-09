@@ -1,0 +1,129 @@
+.customer-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-customer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #888;
+    background-color: #888;
+  }
+  
+  .search-bar input {
+    padding: 8px 30px 8px 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .search-bar svg {
+    position: absolute;
+    right: 10px;
+    color: #888;
+  }
+  
+  .add-member {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-member svg {
+    margin-right: 5px;
+  }
+  
+  .team-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200em, 1fr)); */
+    gap: 20px;
+  }
+  
+  .team-card {
+    min-height: 10em;
+    min-width: 10em; 
+    /* margin: 1em; */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .avatar {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin: 10px 0 5px;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .email {
+    margin-top: 10px;
+    color: #888;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .email svg {
+    margin-right: 5px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-btn {
+    padding: 8px 12px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .page-number {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }

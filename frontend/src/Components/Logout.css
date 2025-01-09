@@ -1,0 +1,62 @@
+.logout-container {
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .logout-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px 30px;
+    max-width: 400px;
+    animation: slideIn 0.5s ease;
+  }
+  
+  .logout-icon {
+    font-size: 3rem;
+    
+    color: #00c6ff;
+    animation: popUp 1s ease infinite alternate;
+  }
+  
+  .logout-button {
+    background-color: #00c6ff;
+    border: none;
+    margin: 1em;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .logout-button:hover {
+    background-color: #0072ff;
+    transform: scale(1.05);
+  }
+  
+  .logout-button:active {
+    background-color: #005bb5;
+    transform: scale(0.95);
+  }
+  
+  /* Keyframe Animations */
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes popUp {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }

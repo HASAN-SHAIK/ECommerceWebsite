@@ -1,0 +1,20 @@
+.profile-container {
+    padding-top: 5vh;
+    /* background-color: #00c1b5; */
+    height: 80vh;
+  }
+  .profile-card{
+    background-color: red;
+    width:  90em;
+    height: 70em;
+  }
+  .user-profile-card{
+    height: 70vh;
+  }
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card img {
+    border: 2px solid #ddd;
+  }

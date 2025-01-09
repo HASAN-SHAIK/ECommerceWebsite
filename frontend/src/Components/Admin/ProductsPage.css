@@ -1,0 +1,51 @@
+.product-page .add-product-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-page .add-product-btn:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    position: relative;
+    padding: 15px;
+    background: #1abc9c;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.badge.popular {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e67e22;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.edit-btn,
+.delete-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.modal-class {
+    background-color: #111;
+    color: red;
+
+}

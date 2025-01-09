@@ -1,0 +1,93 @@
+/* Styles for the Order Received Popup */
+
+.order-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.order-button:hover {
+    transform: scale(1.05);
+}
+
+.order-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: popup-slide-in 0.5s ease-out;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-content h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Checkmark Animation */
+.checkmark-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #28a745;
+    border-radius: 50%;
+}
+
+.checkmark {
+    width: 30px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    animation: checkmark-draw 0.5s ease-out forwards;
+}
+
+@keyframes checkmark-draw {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(45deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2) rotate(45deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(45deg);
+    }
+}
+
+/* Slide-in animation for popup */
+@keyframes popup-slide-in {
+    0% {
+        transform: translate(-50%, -60%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .cart{
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+        width: 2.5em;
+        }
+}
+.searchPosition{
+    position: fixed;
+    /* transition: all 1s; */
+}

@@ -1,0 +1,169 @@
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6 !important;
+  }
+  
+  .login-card {
+    display: flex;
+    max-width: 800px; /* Original width for larger screens */
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .admin-login-card {
+    display: flex;
+    max-width: 800px; /* Original width for larger screens */
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-form {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%; /* Original width for larger screens */
+    background-color: #00c1b5;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .signup-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .signup-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .signup-button {
+    background-color: #fff;
+    color: #00c1b5;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signup-button:hover {
+    background-color: #00a19d;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .social-icons i:hover {
+    color: #00c1b5;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .login-form input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    background-color: #00c1b5;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #00a19d;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 480px) {
+    .login-card {
+      flex-direction: column; /* Stack the login form and signup section vertically */
+      max-width: 90%; /* Full width on mobile */
+    }
+  
+    .signup-section {
+      width: 100%; /* Full width for signup section on mobile */
+      padding: 1.5rem; /* Adjust padding for mobile */
+    }
+  
+    .signup-section p {
+      display: none; /* Hide the paragraph under New Here? on mobile */
+    }
+  
+    .signup-section h3 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+  
+    .login-button, .signup-button {
+      padding: 0.6rem; /* Adjust button padding for mobile */
+    }
+  
+    .social-icons i {
+      font-size: 1.2rem; /* Smaller social icons for mobile */
+    }
+  }
